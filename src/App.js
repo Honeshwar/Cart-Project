@@ -1,9 +1,10 @@
-import './App.css';
+import CardItems from './CardItems';
 
 function App() {
   return (
     <div className="App">
-     <h1>Cart</h1>
+      {/* app inside card items component */}
+     <CardItems/>
     </div>
   );
 }
